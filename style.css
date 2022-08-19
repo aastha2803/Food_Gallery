@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Poppins',sans-serif;
+}
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+a{
+	text-decoration: none;
+	color: #555;
+}
+p{
+	color: #555;
+}
+.container{
+	max-width: 1300px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right:25px;
+}
+.row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.col-2{
+	flex-basis: 50%;
+	min-width: 300px;
+}
+.col-2 img{
+	max-width: 100%;
+	padding: 40px 0;
+}
+.col-2 h1{
+	font-size: 35px;
+	line-height: 60px;
+	margin: 20px 0;
+}
+
+.btn{
+	display: inline-block;
+	background: #ff523b;
+	color: #fff;
+	padding: 8px 30px;
+	margin: 30px 0;
+	border-radius: 30px;
+	transition: background 0.5s;
+}
+.btn:hover{
+
+	background: #563434;
+}
+
+.header{
+	background: radial-gradient(#fff,#ffd6d6);
+}
+.header  .row{
+	margin-top: 70px;
+}
+.categories{
+	margin: 70px 0;
+
+}
+.rowIMG{
+	display: flex;
+	flex-wrap: wrap;
+}
+.colImg{
+	flex-grow: 1;
+	width: 33%;
+	margin-bottom: 10px;
+}
+
+.colImg img{
+	width: 100%;
+	}
+/*
+.col-3 img{
+  float: left;
+  width: 30%;
+  height: auto;
+  padding-left: 25px;
+	padding-right: 25px;
+	margin-bottom: 80px;
+}*/
+
+ 
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.small-container{
+	text-align: center !important;
+	color: #555;
+	text-decoration: underline;
+	margin-bottom: 40px;
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-top: 20px;
+}
+.col-4{
+	float: left;
+	position: relative;
+	padding: 10px;
+	width: 25%;
+	margin-bottom: 50px;
+	align-items: center;
+}
+/*
+.col-4 img{
+	 float:center;
+  padding: 50px;
+	width: 100%;
+} */
+
+.col-4 img{
+   position: relative;
+   max-width: 100%;
+   /* width: calc(25% - 20px); */
+}
+
+ 
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
